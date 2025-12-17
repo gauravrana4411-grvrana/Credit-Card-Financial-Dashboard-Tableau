@@ -1,74 +1,55 @@
-# Credit-Card-Financial-Dashboard-Tableau
-This dashboard focuses on understanding how customers spend across different demographic segments, how their spending relates to income, what payment behaviors they follow, and whether these behaviors signal any potential credit risk.
+# Credit Card Financial Analysis Dashboard – Tableau
 
-Project Objective and Business Context
-Mitron Bank wanted a clear view of customer behavior to answer four main questions.
-First, how is customer spending distributed across different segments such as age, occupation, gender, and city?
-Second, how does actual spending compare to income, which helps assess credit utilization and future limit expansion?
-Third, what payment patterns exist across age groups and payment types?
-And finally, are there any early indicators of credit risk based on spending intensity and usage patterns?
-The dashboard was designed to support business teams, credit managers, and leadership with a single, easy-to-use analytical view.
-________________________________________
-Data Preparation and Integrity
-Before building any visuals, the focus was on data quality.
-The data was imported into Tableau from CSV files containing customer demographics, income details, spending values, and payment methods.
-All fields were standardized to ensure consistency. Demographic columns such as age group, occupation, gender, and marital status were clearly categorized. Numeric fields like income and monthly spend were formatted correctly and validated for accuracy. Missing or inconsistent values were handled so that they would not distort the analysis.
-This preparation ensured that the data was accurate, well-structured, and ready for analysis, which is critical for decision-making.
-________________________________________
-Dashboard Design and Navigation
-The dashboard is designed to be intuitive and easy to navigate, even for non-technical users.
-At the top, global filters allow users to quickly segment the data by age group, occupation, gender, marital status, and city. These filters apply across all visuals, enabling seamless cross-analysis.
-The layout follows a logical storytelling flow. It starts with high-level KPIs that summarize overall customer behavior and then gradually moves into deeper segment-level insights.
-This design allows users to answer both strategic and operational questions without needing multiple dashboards.
-________________________________________
-High-Level KPIs and Overall Insights
-At the top of the dashboard, key metrics provide a snapshot of customer behavior.
-We see the total number of customers, the average monthly income, the average monthly spend, and the income utilization percentage.
-One important insight here is that customers are, on average, using less than half of their income on monthly spending. This indicates healthy credit behavior and suggests there is room for credit limit expansion for the right customer segments.
-These KPIs immediately set the context for deeper analysis.
-________________________________________
-Spending Distribution by Occupation and Age Group
-When we analyze spending by occupation, salaried IT employees emerge as the highest spending group, followed by business owners. Government employees and freelancers show relatively more conservative spending patterns.
-From an age perspective, customers in the 35 to 45 age group demonstrate the highest average spending. This group is typically financially stable, has consistent income, and represents a strong target segment for premium credit products.
-Younger customers, particularly those aged 21 to 24, show lower spending, which is expected but also indicates future growth potential.
-________________________________________
-City-Level and Demographic Insights
-The city-level analysis shows that metro cities like Mumbai, Delhi NCR, and Bengaluru contribute significantly more to total spending compared to other cities.
-This insight helps the bank prioritize geographic regions for premium offerings, targeted campaigns, and branch-level strategies.
-Gender and marital status analysis further adds depth. Male customers account for slightly higher overall spending, while female customers show stable and consistent usage. Married customers tend to spend more than single customers, which aligns with higher household expenses and often indicates predictable financial behavior.
-________________________________________
-Income vs Spending Relationship
-One of the most important visuals in the dashboard is the income versus spending scatter plot.
-This chart clearly shows a positive relationship between income and spending. As income increases, spending also increases, but in a controlled and proportional manner. There are no significant clusters of customers who have low income but extremely high spending.
-This pattern indicates that most customers are managing their credit responsibly, and there are no immediate red flags related to over-utilization.
-________________________________________
-Payment Behavior and Credit Usage Patterns
-The payment type analysis reveals that credit cards dominate customer spending, followed by UPI and debit cards. Net banking is used less frequently for monthly spending.
-When we break this down by age group, younger customers show a stronger preference for UPI, while older customers rely more heavily on credit cards. This shift in payment behavior is important for understanding how customers may transition into higher credit usage over time.
-From a credit perspective, actual spending aligns well with income levels, indicating that current credit limits are largely appropriate.
-________________________________________
-Credit Risk Indicators
-Based on spending consistency, income utilization, and payment patterns, the overall credit risk across the customer base appears low.
-There are no strong indicators of excessive utilization or unstable spending behavior. Married and mid-career customers show predictable usage, while younger segments can be monitored as their spending grows.
-This insight allows the bank to focus risk monitoring on specific transition segments rather than the entire customer base.
-________________________________________
-Actionable Business Recommendations
-Based on the insights from the dashboard, several actionable recommendations emerge.
-The bank can consider increasing credit limits for high-income and high-spending segments such as salaried IT employees and customers aged 35 to 45.
-Premium credit card offerings can be targeted toward metro cities like Mumbai and Delhi NCR.
-Younger customers who primarily use UPI can be gradually encouraged toward credit products through controlled offers and rewards.
-Finally, customer engagement strategies can be personalized based on occupation, life stage, and spending behavior.
-These recommendations are directly linked to the data and support both growth and risk management objectives.
-________________________________________
-Evaluation of the Dashboard
-From an evaluation standpoint, the dashboard performs strongly across all criteria.
-The insights are clear and easy to interpret due to well-structured visuals and KPIs.
-Navigation is simple, with intuitive filters and interactive elements.
-The visualizations are appropriate for the type of analysis being performed and support informed decision-making.
-The recommendations are practical and aligned with real business strategies.
-The data is clean, accurate, and reliable.
-Finally, the overall presentation follows a logical and engaging narrative that connects data to action.
-________________________________________
-Closing Summary
-To conclude, this Tableau dashboard effectively transforms customer spending and credit data into actionable insights for Mitron Bank.
-It supports data-driven decisions across marketing, credit policy, and risk management while remaining easy to use and understand.
+## Project Overview
+This project focuses on analyzing customer spending, income utilization, and payment behaviors across different demographic segments. The goal is to provide actionable insights that support credit risk assessment, marketing strategies, and business decision-making. The dashboard is built in Tableau and designed to be intuitive for both technical and non-technical users.
+
+## Objectives
+- Understand customer spending patterns by age, occupation, gender, and city.
+- Analyze income versus spending relationships to assess credit utilization.
+- Identify preferred payment methods and trends across demographic segments.
+- Highlight potential credit risk indicators and actionable business insights.
+
+## Data Sources
+- Customer demographics (age, gender, occupation, marital status, city)
+- Income details
+- Monthly spending values
+- Payment methods (credit card, debit card, UPI, net banking)
+
+*All sensitive or personal information has been anonymized.*
+
+## Data Preparation
+- Standardized field names and data types for consistency.
+- Categorized demographic variables (age group, occupation, gender, marital status).
+- Handled missing or inconsistent values to ensure accuracy.
+- Validated numeric fields such as income and spending for correctness.
+
+## Dashboard Features
+- **Global Filters:** Segment data by age, occupation, gender, marital status, and city.
+- **High-Level KPIs:** Total customers, average monthly income, average monthly spend, and income utilization percentage.
+- **Spending Analysis:** Bar charts and scatter plots showing spend distribution by age, occupation, and city.
+- **Payment Behavior:** Visualizations of payment method usage by age group and customer segments.
+- **Credit Risk Indicators:** Insights based on spending patterns, income utilization, and payment behavior.
+
+## Key Insights
+- Customers generally use less than half of their income for monthly spending, indicating responsible credit usage.
+- Highest spending groups: salaried IT employees and mid-career customers aged 35–45.
+- Metro cities contribute more significantly to total spending.
+- Payment preferences vary by age, with younger customers favoring UPI and older customers relying on credit cards.
+- Overall credit risk is low; targeted monitoring can focus on younger segments and high-growth customers.
+
+## Recommendations
+- Consider increasing credit limits for high-income and high-spending segments.
+- Target premium credit products in metro cities.
+- Encourage younger customers using UPI to transition gradually to credit products via controlled offers.
+- Personalize engagement strategies based on occupation, life stage, and spending behavior.
+
+## Tools & Technologies
+- **Tableau:** Dashboard creation and interactive visualizations.
+- **Excel / CSV:** Data import and cleaning.
+- **Data Analysis:** Descriptive statistics and visual exploration.
+
+## Conclusion
+This dashboard provides a comprehensive, data-driven view of customer behavior, enabling informed decisions for credit management, marketing, and risk mitigation. The interactive design allows stakeholders to explore insights seamlessly, bridging data with actionable business strategies.
+
+## License
+This project is for educational and demonstration purposes. All customer data is anonymized.
